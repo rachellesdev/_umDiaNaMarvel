@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Marvel', sans-serif;
+    background-color: #00080c;
+    color: aliceblue;
+   
+}
+
+h1{
+    background-color: #AD1414;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    font-size: 40pt;
+    font-family: 'Bebas Neue', cursive;
+    box-shadow: 5px 5px #501515;
+}
+
+#escolhapersonagem{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#AD1414;
+    font-size: 15pt;
+    width: 70%;
+    height: 150px;
+    box-shadow: 5px 5px #501515;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+#buttonwidow{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00080c;
+    color: aliceblue;
+}
+
+#buttondeadpool{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00080c;
+    color: aliceblue;
+}
+
+#buttoncapita{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00080c;
+    color: aliceblue;
+}
