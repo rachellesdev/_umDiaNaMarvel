@@ -1,19 +1,25 @@
+// TA CERTO
+
 var btnres = document.getElementById('buttonres')
-btnres.addEventListener('mouseenter', entrar)
-btnres.addEventListener('mouseout', sair)
 btnres.addEventListener('click', clicar)
 
-function entrar(){
-    btnres.style.background = '#2A0D0D'
-}
-
-function sair(){
-    btnres.style.background = '#00080c'
-}
-
 function clicar() {
-    var resUm = prompt("Sua resposta é A ou B?") 
+    var resUm = prompt("ATENÇÃO -  Para escolher a opção A digite o ano em que Deadpool apareceu a primeira vez nos quadrinhos e para escolher B digite o ano em que foi lançado o primeiro filme do Deadpool") 
+    var contador = 1
+    while (contador >= 0) {
+        if (resUm == "1991") {
+            return location = "./deadpool2Acharada.html"
+        } else if (resUm == '2016'){
+            return location = "./deadpool2Bcharada.html"
+        }        
+        else if(resUm != '1991' || resUm != '2016'){
+            contador = 1
+            alert(`Resposta incorreta, você tem mais ${contador} chance. Se errar, irá voltar ao início.`)
+            resUm = prompt("ATENÇÃO -  Para escolher a opção A digite o ano em que Deadpool apareceu a primeira vez nos quadrinhos e para escolher B digite o ano em que foi lançado o primeiro filme do Deadpool") 
+        }
+    }
+    return location = "./index.html"
 }
 
-
+// TA CERTO
 

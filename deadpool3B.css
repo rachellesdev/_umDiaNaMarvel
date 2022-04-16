@@ -44,6 +44,11 @@ body {
     color: aliceblue;
 }
 
+
+#buttonvoltar:hover{
+    background: #2A0D0D
+}
+
 img {
     width: 320px;
     height: 600px;
