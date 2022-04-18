@@ -5,13 +5,15 @@ body{
     flex-direction: column;
     font-family: 'Marvel', sans-serif;
     background-color: #00080c;
-    color: aliceblue;
-   
+    color: white;
+    background-image: url("./background.png");
+    background-size: cover;
+      
 }
 
 h1{
     background-color: #AD1414;
-    width: 70%;
+    width: 71%;
     display: flex;
     justify-content: center;
     font-size: 40pt;
