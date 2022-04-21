@@ -1,0 +1,162 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Marvel', sans-serif;
+    background-color: #00080c;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    background-image: url("./Imagens/backdead2.png");
+    background-size: cover;
+    
+}
+
+.headname {
+    background-color: #AD1414;
+    width: 71%;
+    display: flex;
+    justify-content: center;
+    font-size: 40pt;
+    font-family: 'Bebas Neue', cursive;
+    box-shadow: 5px 5px #501515;
+}
+
+.h13B{
+    
+    
+    display: flex;
+    justify-content: center;
+    font-size: 35pt;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+#hist2Bdead{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+    justify-content: center;
+    background-color:#AD1414;
+    font-size: 15pt;
+    width: 70%;
+    height: 290px;
+    box-shadow: 5px 5px #501515;
+}
+
+#hist1dead{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+    justify-content: center;
+    background-color:#AD1414;
+    font-size: 15pt;
+    width: 70%;
+    height: 290px;
+    box-shadow: 5px 5px #501515;
+}
+
+#hist2Adead{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    justify-content: center;
+    background-color:#AD1414;
+    font-size: 20pt;
+    width: 70%;
+    height: 340px;
+    box-shadow: 5px 5px #501515;
+}
+
+#hist2Bdead{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+    justify-content: center;
+    background-color:#AD1414;
+    font-size: 15pt;
+    width: 70%;
+    height: 290px;
+    box-shadow: 5px 5px #501515;
+}
+
+#hist2Bdeadchar{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+    justify-content: center;
+    background-color:#AD1414;
+    font-size: 15pt;
+    width: 70%;
+    height: 500px;
+    box-shadow: 5px 5px #501515;
+}
+
+#histfinald {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    justify-content: center;
+    background-color: #AD1414;
+    font-size: 15pt;
+    width: 70%;
+    height: 450px;
+    box-shadow: 5px 5px #501515;
+}
+
+
+#buttonvoltar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00080c;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+#buttonvoltar:hover{
+    background: #2A0D0D
+}
+
+
+#buttonres{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00080c;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+#buttonres:hover{
+    background: #2A0D0D
+}
+
+

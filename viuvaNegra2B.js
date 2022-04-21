@@ -1,5 +1,3 @@
-
-// TA CERTO
 var btnres = document.getElementById('buttonres')
 btnres.addEventListener('click', clicar)
 
@@ -8,7 +6,7 @@ function clicar() {
     var contador = 1
     while (contador >= 0) {
         if (resUm.toLowerCase() == "c") {
-            return location = "./deadpool2A.html"
+            return location = "./viuvaNegra2Bb.html"
         } 
         else if((resUm.toLowerCase() != "c") && contador > 0){
             
@@ -22,5 +20,4 @@ function clicar() {
         }
     }
     
-}
-// TA CERTO
+} // ta certo

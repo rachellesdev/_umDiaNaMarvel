@@ -8,12 +8,17 @@ function clicar() {
         if (resUm.toLowerCase() == "a") {
             return location = "./deadpool3B.html"
         } 
-        else if(resUm.toLowerCase() != "a"){
-            contador = 1
+        else if((resUm.toLowerCase() != "a") && contador > 0){
+            
             alert(`Resposta incorreta, você tem mais ${contador} chance. Se errar, irá voltar ao início.`)
             var resUm = prompt("Sua resposta é A, B, C  ou D?")
+            contador --
+
+        }else{
+            alert('Você perdeu suas chances, terá que voltar para o início!')
+            return location = "./index.html"
         }
     }
-    return location = "./index.html"
+    
 }
 
