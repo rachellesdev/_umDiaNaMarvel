@@ -3,6 +3,6 @@ function startDeadpool() {
 }
 
 function startViuva() {
-    location.href = "./viuvanegra1.html";
+    location.href = "./viuvaNegra1.html";
 }
 
