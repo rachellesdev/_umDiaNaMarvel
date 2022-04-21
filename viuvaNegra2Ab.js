@@ -7,12 +7,12 @@ function clicar() {
     var resUm = prompt("ATENÇÃO - Para responder A digite o primeiro nome do Agente Coulson. E para responder B digite o primeiro nome da Agente Hill.") 
     var contador = 1
     while (contador >= 0) {
-        if (resUm.toLowerCase() == "philip") {
+        if (resUm.toLowerCase() == "phillip") {
             return location = "viuvaNegra3A.html"
         } else if (resUm.toLowerCase() == "maria"){
             return location = "./viuvaNegra3B.html"
         }        
-        else if((resUm != 'philip' || resUm != 'maria') && contador > 0){
+        else if((resUm != 'phillip' || resUm != 'maria') && contador > 0){
             
             alert(`Resposta incorreta, você tem mais ${contador} chance. Se errar, irá voltar ao início.`)
             var resUm = prompt("ATENÇÃO - Para responder A digite o primeiro nome do Agente Coulson. E para responder B digite o primeiro nome da Agente Hill.") 
