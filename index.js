@@ -6,3 +6,8 @@ function startViuva() {
     location.href = "./viuvaNegra1.html";
 }
 
+function startCapita() {
+    location.href = "./capitaMarvel1.html";
+}
+
+

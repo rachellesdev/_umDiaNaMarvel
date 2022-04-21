@@ -8,7 +8,7 @@ body{
     color: aliceblue;
     width: 100%;
     height: 100%;
-    background-image: url("./Imagens/backdead2.png");
+    background-image: url("./Imagens/backcapita2.png");
     background-size: cover;
     
 }
@@ -23,14 +23,11 @@ body{
     box-shadow: 5px 5px #501515;
 }
 
-.h13B{
-    
-    
+.h13B{  
     display: flex;
     justify-content: center;
     font-size: 35pt;
-    font-family: 'Bebas Neue', cursive;
-    
+    font-family: 'Bebas Neue', cursive;    
 }
 
 #hist2Bdead{
@@ -48,7 +45,7 @@ body{
     box-shadow: 5px 5px #501515;
 }
 
-#hist1dead{
+#hist1viuva{
     margin-top: 10px;
     margin-bottom: 20px;
     display: flex;
@@ -93,7 +90,7 @@ body{
     box-shadow: 5px 5px #501515;
 }
 
-#hist2Bdeadchar{
+#hist2Bwidowchar{
     margin-top: 10px;
     margin-bottom: 20px;
     display: flex;
@@ -121,6 +118,7 @@ body{
     width: 70%;
     height: 450px;
     box-shadow: 5px 5px #501515;
+    text-align: center;
 }
 
 
@@ -161,21 +159,23 @@ body{
 
 @media (max-width: 768px){
 
+    #hist1viuva{
+        margin-top: 8px;        
+        height: 320px;
+        
+    }
+
     #histfinald {
         
         font-size: 15pt;
         width: 70%;
-        height: 460px;
+        height: 400px;
         
     }
 
     .h13B{  
         text-align: center;
         font-size: 30pt;
-    }
-
-    #hist2Adead{
-        font-size: 14pt;        
     }
 }
 
@@ -190,11 +190,15 @@ body{
                 
     }
 
+    #hist1viuva{
+        font-size: 12pt;       
+    }
+
     #histfinald {
         
         font-size: 13pt;
         width: 70%;
-        height: 460px;
+        height: 400px;
         
     }
 
@@ -203,18 +207,7 @@ body{
         font-size: 23pt;
     }
 
-    #hist2Adead{
-        font-size: 12pt;        
-    }
-
-    #hist1dead{
-        font-size: 13pt;
-    }
-
-    #hist2Bdeadchar{
-        font-size: 13pt;
-    }
-    
-
     
 }
+
+

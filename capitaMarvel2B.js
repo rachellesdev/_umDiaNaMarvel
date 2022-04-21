@@ -5,10 +5,10 @@ function clicar() {
     var resUm = prompt("Qual a sua resposta: A, B, C  ou D?") 
     var contador = 1
     while (contador >= 0) {
-        if (resUm.toLowerCase() == "b") {
-            return location = "./viuvaNegra2Ab.html"
+        if (resUm.toLowerCase() == "c") {
+            return location = "./capitaMarvel3B.html"
         } 
-        else if((resUm.toLowerCase() != "b") && contador > 0){
+        else if((resUm.toLowerCase() != "c") && contador > 0){
             
             alert(`Resposta incorreta, você tem mais ${contador} chance. Se errar, irá voltar ao início.`)
             var resUm = prompt("Qual a sua resposta: A, B, C  ou D?")

@@ -159,4 +159,68 @@ body{
     background: #2A0D0D
 }
 
+@media (max-width: 768px){
 
+    #hist1viuva{
+        margin-top: 8px;        
+        height: 320px;
+        
+    }
+
+    #histfinald {
+        
+        font-size: 15pt;
+        width: 70%;
+        height: 400px;
+        
+    }
+
+    .h13B{  
+        text-align: center;
+        font-size: 30pt;
+    }
+
+    #hist2Adead{
+        font-size: 14pt;        
+    }
+}
+
+@media (max-width: 425px){
+
+    h1{       
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 30pt;
+                
+    }
+
+    #hist1viuva{
+        font-size: 13pt;   
+        padding: 8%;
+    }
+
+    #histfinald {
+        
+        font-size: 13pt;
+        width: 70%;
+        height: 400px;
+        
+    }
+
+    .h13B{  
+        text-align: center;
+        font-size: 23pt;
+    }
+
+    #hist2Bwidowchar{
+        font-size: 13pt;
+    }
+
+    #hist2Adead{
+        font-size: 12pt;        
+    }
+
+    
+}

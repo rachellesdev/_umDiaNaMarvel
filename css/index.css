@@ -87,3 +87,55 @@ h1{
 #buttoncapita:hover{
     background: #2A0D0D
 }
+
+@media (max-width: 768px){
+
+    #escolhapersonagem{     
+        font-size: 13pt;        
+        height: 260px;     
+    }
+}
+
+@media (max-width: 420px){
+
+    h1{       
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 30pt;
+                
+    }
+
+    #escolhapersonagem {
+        font-size: 13pt;
+        height: 290px;
+        width: 80%;
+        padding: 9%;
+    }
+
+    #buttonwidow{
+        
+        padding: 7px;
+        border-radius: 5px;
+        font-size: 9pt;
+        
+           
+    }
+    
+    #buttondeadpool{
+        
+        padding: 7px;
+        border-radius: 5px;
+        font-size: 9pt;
+       
+    }
+    
+    #buttoncapita{
+        
+        padding: 7px;
+        border-radius: 5px;
+        font-size: 9pt;
+        
+    }
+}

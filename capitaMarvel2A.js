@@ -6,7 +6,7 @@ function clicar() {
     var contador = 1
     while (contador >= 0) {
         if (resUm.toLowerCase() == "b") {
-            return location = "./viuvaNegra2Ab.html"
+            return location = "./capitaMarvel3A.html"
         } 
         else if((resUm.toLowerCase() != "b") && contador > 0){
             
